@@ -1,7 +1,5 @@
 
-## Date = 11/20/19
-## Group = Califano Lab
-
+#Gain-of-Function, Loss-of-Function and Neo-morph prediction using Mutation Classification Plot
 
 # load packages
 
