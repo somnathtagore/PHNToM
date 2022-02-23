@@ -1,9 +1,6 @@
-#############Unsupervised analysis with internal signature################
-#############Unsupervised analysis with internal signature################
-#############Unsupervised analysis with internal signature################
-#############Unsupervised analysis with internal signature################
+#Define GOF/LOF signature
 
-#erbb2 in brca
+#ERBB2 in BRCA as a case study
 save_pheatmap_pdf <- function(x, filename, width=10, height=10) {
   stopifnot(!missing(x))
   stopifnot(!missing(filename))
@@ -25,6 +22,7 @@ gg_color_hue <- function(n) {
   hcl(h = hues, l = 65, c = 100)[1:n]
 }
 library(viper)
+
 # tcga data
 brca.tumor<-read.table(file="../../batch_corrected_data/data/batch-correct/tcga-tumor/brca-tcga-tumor.txt", header=TRUE)
 dim(brca.tumor)
