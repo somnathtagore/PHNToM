@@ -1,18 +1,4 @@
 
-# #egfr samples
-# tcga.tumor<-read.table(file="~/Documents/viper-docs/benchmarking_1/signature_with_gtex/batch_corrected_data/data/batch-correct/tcga-tumor/luad-tcga-tumor.txt", header=TRUE)
-# #colnames(tcga.tumor)<-gsub('.{10}$','',colnames(tcga.tumor))
-# colnames(tcga.tumor)
-# dim(tcga.tumor)
-# colnames(tcga.tumor)<-gsub('.{16}$','',colnames(tcga.tumor))
-# 
-# egfr.samples<- 
-#   tcga.tumor[,intersect(EGFR.Tumor_Sample_Barcode,colnames(tcga.tumor))]
-# dim(egfr.samples) #78
-
-#establish EGFR GOF protein activity signature
-#high confidence EGFR-mutated LUAD vs GTEX colon
-#L858R and Exon19 deletions
 #bootstrap msviper 
 
 
